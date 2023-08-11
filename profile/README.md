@@ -47,3 +47,5 @@ Main Branch
 No Direct Pushes: Changes cannot be pushed directly to the main branch. This branch is reserved for production and deployment. All changes must go through the pull request process.
 
 Team Lead Responsibility: Only the team lead is authorized to push changes to the main branch, typically after thorough testing and code review.
+
+Jira Board: https://consulting69.atlassian.net/jira/software/projects/KAN/boards/1
