@@ -41,4 +41,24 @@ No Direct Pushes: Changes cannot be pushed directly to the main branch. This bra
 
 Team Lead Responsibility: Only the team lead is authorized to push changes to the main branch, typically after thorough testing and code review.
 
-## Jira Board: https://consulting69.atlassian.net/jira/software/projects/KAN/boards/1
+---
+# Tech stack
+
+## Useful links related to our web projects tech stack:
+
+- [Next docs](https://nextjs.org/docs) - main framework that is built on top of React
+- [Tailwindcss docs](https://tailwindcss.com/docs/installation) - preferred CSS solution
+- [Framer-motion docs](https://www.framer.com/motion/introduction/) - the main animation library
+- [NextUI docs](https://nextui.org/docs/guide/introduction) - current UI component library that works with tailwind and framer-motion
+- [Hygraph docs](https://hygraph.com/docs) - headless CMS solution that we use, it requires GraphQL
+- [Icons](https://react-icons.github.io/react-icons) - Package of icons that we use
+  
+We also use a combination of Prettier, ESLint and Husky to lint and format the code before it is commited.
+
+## Helpful extensions for VSCode:
+
+- Tailwind CSS IntelliSense (bradlc.vscode-tailwindcss) - This is really helpful when working with tailwind classes. Press ctrl/cmd + i when inside a className prop to list all possible tailwind classes.
+- Auto Rename Tag (formulahendry.auto-rename-tag) - Automatically renames paired HTML tags
+- ESLint (dbaeumer.vscode-eslint)
+- Prettier - Code formatter (esbenp.prettier-vscode)
+- Error Lens (usernamehw.errorlens) - improves highlighting of errors
